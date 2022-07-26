@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="buyy.css">
+    
+    <link rel="shortcut icon" href="logooo.png"><title>Buy</title>
+</head>
+    <body>
+        <header>
+            <a href="home.html"><img src="logoo.png" class="logo"></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="buy.html" class="active"> book now</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><div class="joining">
+                    <a class="dropbtn">Join</a>
+                    <div class="joining-content">
+                         <a href="signup.html">sign up</a>
+                         <a href="login.html">login</a>
+                     </div></li>
+            </ul>
+            <a href="Contact.html" class="active"><button class="but">Contact Us</button></a>
+        </header>
+        <div class="container">
+            <div class="contact-info">
+                <div class="box">
+                    <div class="text">
+                        <h3>How to Use it</h3>
+                        <p>You can use it with coins, if you are<br>going to
+                        buy first aid kit medicines.<br> But if you want to buy emergency medicines<br>
+                        you must buy a card from our cards by downloading<br>our application <b>ATMedicine</b>
+                         and register<br>to take a unique ID that no one else will have..<br>to unlock this type.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+            <form id="regForm" action="">
+
+                <center><h1>Book Now</h1></center>
+                <br>
+                
+                <!-- One "tab" for each step in the form: -->
+                <div class="tab"><h4>Personal Info:</h4><br>
+                <p><input type="text" oninput="this.className = ''">
+                <span>Name</span> 
+                </p>
+                <p><input type="email" oninput="this.className = ''">
+                <span>E-mail</span> </p>
+                <p><input maxlength="11" type="number" oninput="this.className = ''">
+                <span>Phone Number</span></p>
+                </div>
+                
+                <div class="tab"> <h4>Shipping Address:</h4><br>
+                <p> <label>Governorate:</label><select name="city" placeholder="Choose One" id="city" oninput="this.className=''">
+                    <option >Choose One</option>
+                    <option >Alexandria</option>
+                    <option >Aswan</option>
+                    <option >Asyut</option>
+                    <option >Beheira</option>
+                    <option >Beni suef</option>
+                    <option >Cairo</option>
+                    <option >Dakhlia</option>
+                    <option >Damietta</option>
+                    <option >Faiyum</option>
+                    <option >Gharbia</option>
+                    <option >Giza</option>
+                    <option >Ismailia</option>
+                    <option >Karf El Sheikh</option>
+                    <option >Luxor</option>
+                    <option >Matruh</option>
+                    <option >Minya</option>
+                    <option >Monufia</option>
+                    <option >New Valley</option>
+                    <option >North Sinai</option>
+                    <option >Port Said</option>
+                    <option >Qalyubia</option>
+                    <option >Qena</option>
+                    <option >Red Sea</option>
+                    <option >Sharqia</option>
+                    <option >Sohag</option>
+                    <option >South sinai</option>
+                    <option >suez</option>
+                </select></p><br>
+                <p><input id="city" maxlength="30" required type="text" oninput="this.className=''">
+                <span>City</span>
+                </p>
+                <p><input id="lastName" maxlength="15" required type="text" oninput="this.className=''">
+                <span>Zip/Postal Code</span>
+                </p>
+                </div>
+                
+                <div class="tab"><h4>Payment Info:</h4><br>
+                <p><input required type="number" placeholder="Amount" oninput="this.className=''"></p>
+                <p><label for="place">Place to put:</label>
+                    <select name="place" id="place" oninput="this.className=''">
+                        <option >Choose One</option>
+                    <option >Pharmacy</option>
+                    <option >Super Market</option>
+                    <option >Mall</option>
+                    <option >Gas Station</option>
+                    <option >Railway Station</option>
+                </select></p><br>
+                <p><label for="place">Method Of Payment:</label>
+
+                    <select name="place" id="place" oninput="this.className=''">
+                        <option >Choose One</option>
+                        <option >Cash</option>
+                        <option >Credit Card</option>
+                    </select></p>
+                </div>
+                
+                <div style="overflow:auto;" class="btn">
+                    <button class="butt"type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                    <button class="butt" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                </div>
+                
+                <!-- Circles which indicates the steps of the form: -->
+                <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                </div>
+                
+                </form>
+            </div>
+        </div>
+        <div class="containerr" id="section3">
+            <div class="footer">
+                <div class="footer-heading footer1">
+                    <h1><a href="AboutUs.html">About Us</a></h1>
+                    <a href="#">Blog</a>
+                    <a href="#">Demo</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Terms of Services</a>
+                </div>
+                <div class="footer-heading footer1">
+                    <h1><a href="Contact.html">Contact us</a></h1>
+                    <a href="#">Jobs</a>
+                    <a href="#">Suppports</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Sponsorships</a>
+                </div>
+                <div class="footer-heading footer1">
+                    <h1>Social Media</h1>
+                    <a href="https://www.facebook.com/ATMedicine-113428698036394/?ref=page_internal">Facebook</a>
+                    <a href="https://instagram.com/atmedicine_?igshid=YmMyMTA2M2Y=">Instagram</a>
+                    <a href="#">twitter</a>
+                    <a href="#">linkedin</a>
+                </div>
+            </div>
+
+            <div class="textt">
+                Copyright &copy; All rights reserved, 2022 ATMedicine<br>
+            </div>
+    </div>
+    <script src="home.js">
+        
+    </script>
+    </body>
+
+</html>

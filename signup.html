@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="shortcut icon" href="logooo.png"><title>Sign Up</title>
+</head>
+
+    <body>
+        <header>
+            <a href="home.html"><img src="logoo.png" class="logo"></a>
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="buy.html">book now</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li>  <div class="joining">
+                    <a class="dropbtn">Join</a>
+                    <div class="joining-content">
+                         <a href="signup.html">sign up</a>
+                         <a href="login.html" class="active">login</a>
+                     </div></li>
+            </ul>
+            <a href="Contact.html" class="active"><button>Contact Us</button></a>
+
+</header>
+<div class="loginbox">
+    <img src="qq.jpeg" class="person">
+    <h1>Sign Up</h1>
+    <div class="ss">
+    <form class="addForm">
+        <div class="inputbox">
+            <input id="firstName" maxlength="15" required type="text"  oninput="this.className=''"><br>
+            <span>First Name</span>
+        </div>
+        <div class="inputbox">
+        <input id="lastName" maxlength="15" required type="text"  oninput="this.className=''" ><br>    
+        <span>Last Name</span>
+        </div>
+        <div class="inputbox">
+        <input id="Number" maxlength="11" required type="number"  oninput="this.className=''" ><br>    
+        <span>Phone Number</span>
+        </div>
+        <div class="inputbox">
+            <label>Date Of Birth:</label>
+        <input id="age" min="16" required type="date"  oninput="this.className=''"><br>    
+        
+        </div>
+        <div class="inputbox">
+        <input id="email" required type="email"  oninput="this.className=''"><br>    
+        <span>E-mail</span>
+        </div>
+        <div class="inputbox">
+        <input id="password" required type="password" oninput="this.className=''" ><br> 
+        <span>Password</span>
+        </div>
+        <div class="inputbox">
+        <input id="repass" required type="password"  oninput="this.className=''"><br> 
+        <span>Re-Enter Password</span>
+        </div>
+        <button class="button tab" type="submit" onclick="nextPrv(1)">Sign Up!</button>
+    
+        <a href="login.html">Have already an account ?</a><br>
+    </form>
+</div>
+            
+</div>
+            <div class="containerr" id="section3">
+            <div class="footer">
+                <div class="footer-heading footer1">
+                    <h1><a href="AboutUs.html">About us</a></h1>
+                    <a href="#">Blog</a>
+                    <a href="#">Demo</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Investors</a>
+                    <a href="#">Terms of Services</a>
+                </div>
+                <div class="footer-heading footer1">
+                    <h1><a href="Contact.html">Contact Us</a></h1>
+                    <a href="#">Jobs</a>
+                    <a href="#">Suppports</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Sponsorships</a>
+                </div>
+                <div class="footer-heading footer1">
+                    <h1>Social Media</h1>
+                    <a href="https://www.facebook.com/ATMedicine-113428698036394/?ref=page_internal">Facebook</a>
+                    <a href="https://instagram.com/atmedicine_?igshid=YmMyMTA2M2Y=">Instagram</a>
+                    <a href="#">twitter</a>
+                    <a href="#">linkedin</a>
+                </div>
+            </div>
+        <div class="textt">
+            Copyright &copy; All rights reserved, 2022 ATMedicine<br>
+        </div>
+    </div>
+    <script src="home.js">
+        
+    </script>
+    </body>
+
+</html>
